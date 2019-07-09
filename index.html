@@ -5,20 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="css/css/all.css" rel="stylesheet">
+<!--    <link href="css/css/all.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title></title>
 </head>
 <body>
     <div class="global-container">
  <!- Start of navigation section -->
             <div class="navigation">
-                <nav>
-                    <img src="img/NASA_logo.svg" alt="">
-                    <input type="search" name="search" id="search" placeholder="What are you looking for?">
-                    <button id="btn-search"><i class="fas fa-search"></i></button>
-                    <img src="" alt="" class="icons">
-                    <img src="" alt="" class="icons">
-                    <img src="" alt="" class="icons">
+                <nav id="nav-bar">
+                  <div class="left">
+                    <img id="nav-logo" src="img/NASA_logo.svg" alt="">
+                  </div>
+                  <div class="center">
+                    <input type="search" name="search" id="nav-search" placeholder="What are you looking for?">
+                    <button id="nav-btn-search"><i class="fa fa-search"></i></button>
+                  </div>
+                  <div class="right">
+                    <img src="img/facebook.svg" alt="" class="icons">
+                    <img src="img/facebook.svg" alt="" class="icons">
+                    <img src="img/facebook.svg" alt="" class="icons">
+                  </div>
                 </nav>
             </div>
  <!- End of navigation section -->
@@ -32,15 +39,15 @@
                             </iframe>
                         </div>
                         <h1 id="video-title">Video title</h1>
-                        <div id="num-views"> 
+                        <div id="num-views">
                             <p id=num>123</p>
                         </div>
                         <div id="likes">
-                            <i class="fas fa-thumbs-up"></i>
+                            <i class="fa fa-thumbs-up"></i>
                             <button>Like</button>
                         </div>
                         <div id="share">
-                            <button><i class="fas fa-share"></i></button>
+                            <button><i class="fa fa-share"></i></button>
                         </div>
                         <div id="avatar">
                             <img src="img/." alt="avatar">
@@ -54,7 +61,7 @@
             <div class="sidebar-section">
                 <div id="sb-recommended-videos"></div>
                 <div id="sb-video-title">Video's title</div>
-                <div id="sb-num-views"> 
+                <div id="sb-num-views">
                     <p id=sb-num>123</p>
                 </div>
             </div>
