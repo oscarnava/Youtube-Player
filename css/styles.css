@@ -4,15 +4,12 @@
     padding: 0px;
 }
 
-body {
-    background-color: bisque;
-}
-
 .icons {
   width: 32px;
   height: 32px;
   background-color: lightblue;
-  padding: 5px;
+  padding: 3px;
+  margin-left: 5px;
   border-radius: 5px;
 }
 
@@ -35,11 +32,10 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  
+
 
 }
 #nav-bar .left {
-  background-color: brown;
   width: 140px;
 }
 
@@ -69,11 +65,11 @@ body {
 }
 
 .video-sb-container {
-  display: grid; 
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 1fr; 
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
   grid-column-gap: 0px;
-  grid-row-gap: 0px; 
+  grid-row-gap: 0px;
 }
 
 /*
@@ -91,3 +87,82 @@ body {
    }
 */
 
+.video-section {
+}
+
+.sidebar-section {
+}
+
+.sb-recommended-videos-info {
+  padding: 7px;
+}
+
+.sb-video-title {
+  font-size: 18pt;
+}
+
+.sb-num {
+  font-size: 12pt;
+  color: #2f2f2f;
+}
+.sb-recommended-videos {
+  padding-left: 20px;
+}
+
+#video-title {
+  font-size: 24pt;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+#num-views {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2f2f2f;
+  margin-left: 2em;
+}
+
+.video-rating-bar {
+  background-color: lightgray;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+#likes {
+  display: inline-block
+}
+
+#share {
+  display: inline-block;
+}
+
+#avatar {
+  display: inline-block;
+}
+
+#avatar img {
+  width: 32px;
+  height: 32px;
+}
+
+#subscribe {
+  display: inline-block;
+}
+
+.cute-button {
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: #3f78c6;
+  color: white;
+  font-weight: bold;
+}
+
+#nav-bar .center {
+  margin: 0 20px;
+}
+
+#nav-bar .center input {
+  width: 30em;
+  margin: 0 1em;
+}
