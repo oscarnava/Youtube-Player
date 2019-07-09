@@ -1,58 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="css/css/all.css" rel="stylesheet">
     <title></title>
 </head>
-
 <body>
     <div class="global-container">
-
-        <!- Start of navigation section -->
-        <div class="navigation">
-            <nav>
-
-            </nav>
-        </div>
-        <!- End of navigation section -->
-
-        <!- Start of video section -->
-        <div class="video-section">
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
+ <!- Start of navigation section -->
+            <div class="navigation">
+                <nav>
+                    <img src="img/NASA_logo.svg" alt="">
+                    <input type="search" name="search" id="search" placeholder="What are you looking for?">
+                    <button id="btn-search"><i class="fas fa-search"></i></button>
+                    <img src="" alt="" class="icons">
+                    <img src="" alt="" class="icons">
+                    <img src="" alt="" class="icons">
+                </nav>
             </div>
-            <h1 id="video-title">Video title</h1>
-            <div id="num-views">
-                1234
+ <!- End of navigation section -->
+ <!- Start of video section -->
+            <div class="video-section">
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <h1 id="video-title">Video title</h1>
+                        <div id="num-views"> 
+                            <p id=num>123</p>
+                        </div>
+                        <div id="likes">
+                            <i class="fas fa-thumbs-up"></i>
+                            <button>Like</button>
+                        </div>
+                        <div id="share">
+                            <button><i class="fas fa-share"></i></button>
+                        </div>
+                        <div id="avatar">
+                            <img src="img/." alt="avatar">
+                        </div>
+                        <div id="subscribe">
+                            <button></button>
+                        </div>
             </div>
-            <div id="likes">
-                <!-- TODO: Insert like and dislike buttons using font awesome -->
+  <!- End of video section -->
+  <!- Start of sidebar section -->
+            <div class="sidebar-section">
+                <div id="sb-recommended-videos"></div>
+                <div id="sb-video-title">Video's title</div>
+                <div id="sb-num-views"> 
+                    <p id=sb-num>123</p>
+                </div>
             </div>
-            <div id="share">
-                <button></button>
-            </div>
-            <div id="avatar">
-                <img src="img/." alt="avatar">
-            </div>
-            <div id="subscribe">
-                <button></button>
-            </div>
-        </div>
-        <!- End of video section -->
-
-        <!- Start of sidebar section -->
-        <div class="sidebar-section">
-
-        </div>
-        <!- End of sidebar section -->
-
+  <!- End of sidebar section -->
     </div>
 </body>
-
 </html>
