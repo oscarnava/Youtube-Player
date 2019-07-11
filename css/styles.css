@@ -15,9 +15,12 @@
 
 #nav-bar {
   background-color: white;
-    display: flex;
-    justify-content: space-between;
-    height: 56px;
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+  -webkit-box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.15);
 /*
   display: grid;
   grid-template-columns: 2fr 10fr 1fr;
@@ -34,9 +37,34 @@
 
 }
 
+
 #nav-bar .right {
-    display: flex;
-    align-items: center;
+  margin: 0;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+
+}
+
+.right > #user-icon {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+  
+  background-color: darkred;
+  text-align: center;
+  
+}
+.right > #user-icon > .icons-bar {
+  color: white;
+  padding: 5px;
+  margin-top: 3px;
+}
+
+.icons-bar {
+  padding: 15px;
+  color: rgb(92, 92, 92);
 }
 
 #nav-search {
@@ -50,7 +78,11 @@
   width: 65px;
   height: 28px;
   font-size: 16px;
-    margin-left: -8px;
+  margin-left: -8px;
+  background-color: #e6e4e45d;
+  border: thin solid lightgray;
+  border-radius: 2px;
+  color: darkgray;
 }
 
 .video-sb-container {
