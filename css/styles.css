@@ -3,39 +3,36 @@ body {
 }
 
 .icons {
-  width: 32px;
-  height: 32px;
-  background-color: lightblue;
-  padding: 3px;
-  margin-left: 5px;
-  border-radius: 5px;
+    width: 32px;
+    height: 32px;
+    background-color: lightblue;
+    padding: 3px;
+    margin-left: 5px;
+    border-radius: 5px;
 }
 
 #nav-logo {
-  float: left;
-  width: 80px;
-  height: auto;
+    float: left;
+    width: 80px;
+    height: auto;
 }
 
 #nav-bar {
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  height: 56px;
-  -webkit-box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.15);
-  box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.15);
-/*
-  display: grid;
-  grid-template-columns: 2fr 10fr 1fr;
-  grid-template-rows: 1fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 0px;
-*/
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
+
 #nav-bar .left {
-  width: auto;
-/*  border: thick dotted red;*/
+    width: auto;
+    /*  border: thick dotted red;*/
     display: flex;
     align-items: center;
 
@@ -43,76 +40,67 @@ body {
 
 
 #nav-bar .right {
-  margin: 0;
-  font-size: 22px;
-  display: flex;
-  align-items: center;
+    margin: 0;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
 
 }
 
 .right > #user-icon {
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  margin-right: 20px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
 
-  background-color: darkred;
-  text-align: center;
+    background-color: darkred;
+    text-align: center;
 
 }
+
 .right > #user-icon > .icons-bar {
-  color: white;
-  padding: 5px;
-  margin-top: 3px;
+    color: white;
+    padding: 5px;
+    margin-top: 3px;
 }
 
 .icons-bar {
-  padding: 15px;
-  color: rgb(92, 92, 92);
+    padding: 15px;
+    color: rgb(92, 92, 92);
 }
 
 #nav-search {
-  font-size: 16px;
+    width: 30em;
+    margin: 0 0;
+    font-size: 16px;
     font-weight: 400;
-  border: thin solid ligthgrey;
-  padding: 3px 9px;
+    border: thin solid lightgray;
+    border-radius: 2px;
+    padding: 3px 9px;
 }
 
 #nav-btn-search {
-  width: 65px;
-  height: 28px;
-  font-size: 16px;
-  margin-left: -8px;
-  background-color: #e6e4e45d;
-  border: thin solid lightgray;
-  border-radius: 2px;
-  color: darkgray;
+    width: 65px;
+    height: 26px;
+    font-size: 16px;
+    margin-left: -8px;
+    background-color: #efefef;
+    border: thin solid lightgray;
+    border-radius: 2px;
+    color: darkgray;
 }
 
 .video-sb-container {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-top: 70px;
 }
 
-/*
-.text-example {
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       flex-direction: column;
-       width: 100%;
-       text-align: center;
-       margin: 10% 0;
-       min-height: 200px;
-       background-color: rgba(33, 33, 33, .3);
-       align-items: center;
-   }
-*/
-
 .video-section {
+    font-family: Roboto, Arial, sans-serif;
 }
 
 .sb-recommended-videos img {
@@ -132,69 +120,64 @@ body {
 }
 
 .sb-num {
-  font-size: .85em;
-  color: #2f2f2f;
+    font-size: .85em;
+    color: #2f2f2f;
 }
+
 .sb-recommended-videos {
-  padding-left: 20px;
+    padding-left: 20px;
 }
-
-
-
-
 
 .video-rating-bar {
-  background-color: lightgray;
-  margin-left: 20px;
-  padding: 10px;
-  border:thick dotted #0000be;
+    background-color: white;
+    margin-left: 20px;
+    padding: 10px;
+    border: thick dotted #0000be;
 }
 
 #likes {
-  display: inline-block
+    display: inline-block
 }
 
 #share {
-  display: inline-block;
+    display: inline-block;
+    text-transform: uppercase;
 }
 
 #avatar {
-  display: inline-block;
+    display: inline-block;
 }
 
 #avatar img {
-  width: 32px;
-  height: 32px;
+    width: 32px;
+    height: 32px;
 }
 
 #subscribe {
-  display: inline-block;
+    display: inline-block;
+    float: right
 }
 
-#unlikes{
-  display: inline-block;
+#unlikes {
+    display: inline-block;
 }
+
 .cute-button {
-  padding: 4px 8px;
-  border-radius: 4px;
-  background-color: #3f78c6;
-  color: white;
-  font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: #3f78c6;
+    color: white;
+    font-weight: bold;
 }
 
 #nav-bar .center {
-  margin: auto;
+    margin: auto;
     display: flex;
     justify-content: center;
 }
 
-#nav-bar .center input {
-  width: 30em;
-  margin: 0 0;
-}
-
 .right {
-  margin: auto;
+    margin: auto;
 }
 
 #burger-icon {
@@ -229,55 +212,78 @@ table tr:first-child {
     color: #0000be;
 }
 
-
-
 .sidebar-section {
     min-width: 400px;
 }
 
 /*video-formatting*/
 .iframe-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%;
-  left: 25%;
-  height: 0;
- }
- 
- .iframe-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
- }
-
- /*video-rating-bar */
- #video-rating-bar {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+    position: relative;
+    width: 90%;
+    padding-bottom: 56.25%;
+    left: 5%;
+    height: 0;
 }
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*video-rating-bar */
+#video-rating-bar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 /*video-title-views*/
 #video-title-views {
-  border: thick dotted yellow;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    /*  border: thick dotted yellow;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 #video-title {
-  font-size: 24pt;
-  font-weight: bold;
-  margin-bottom: 15px;
+    font-size: 18pt;
+    font-weight: 400;
+    margin-bottom: 15px;
 }
+
 /*ratings*/
 #ratings {
-  border: thick dotted aqua;
+    border-bottom: thin solid lightgrey;
+    padding-bottom: 8px;
+    height: 16px;
+    margin-bottom: 16px;
 }
 
 /*description-profile*/
 
 #description-profile {
-  border: thick dotted green;
+    border: thick dotted green;
 }
- 
+
+#num-views {
+    font-size: 16px;
+    color: rgb(96, 96, 96);
+    display: inline-block;
+}
+
+#buttons-group {
+    float: right;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(96, 96, 96);
+    display: flex;
+    justify-content: space-between;
+}
+
+#save-video {
+    text-transform: uppercase;
+}

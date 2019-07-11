@@ -2,174 +2,130 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
-  <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <title></title>
 </head>
 
 <body>
-  <div class="global-container">
-    <!- Start of navigation section -->
-    <div class="navigation">
-      <nav id="nav-bar">
-        <div class="left">
-          <i id="burger-icon" class="fa fa-bars"></i>
-          <img id="nav-logo" src="img/youtube_logo.svg" alt="">
-        </div>
-        <div class="center">
-         <div id="search-container">
-              <input id="nav-search" type="search" name="search" placeholder="What are you looking for?">
-              <button id="nav-btn-search"><i class="fa fa-search"></i></button>
-          </div>
-        </div>
-        <div class="right">
-          <i href="#" class="fa fa-video icons-bar"></i>
-          <i href="#" class="fa fa-th icons-bar"></i>
-          <i href="#" class="fa fa-paper-plane icons-bar" aria-hidden="true"></i>
-          <i href="#" class="fa fa-bell icons-bar" ></i>
-          <div id="user-icon">
-            <i href="#" class="fa fa-user icons-bar"  ></i>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <!- End of navigation section -->
-    <!- Start of video section -->
-    <div class="video-sb-container">
-      <div class="video-section">
-        <div id="iframe-container">
-          <iframe width="1324" height="768" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
-        </div> 
-        <!- Start video-rating-bar-->
-        <div class="video-rating-bar">
-          <div id="video-title-views">
-            <span id="video-title">Video title</span>
-            <div id="num-views">
-              <p id="num">123 views</p>
-            </div>
-          </div>
-          <div id="ratings">
-            <div id="likes">
-              <i class="fa fa-thumbs-up"></i>
-              <button class="cute-button">Like</button>
-            </div>
-            <div id="unlikes">  
-              <i class="fa fa-thumbs-down"></i>
-              <button class="cute-button">Unlike</button>
-             </div>
-            <div id="share">
-              <button class="cute-button">
-                <i class="fa fa-share"></i> Share 
-              </button>
-            </div>
-          </div>
-          
-          <div id="description-profile">
-              <div id="subscribe">
-                  <button id="subscribe-btn">subscribe 123</button>
+    <div class="global-container">
+        <!-- Start of navigation section -->
+        <div class="navigation">
+            <nav id="nav-bar">
+                <div class="left"> <i id="burger-icon" class="fa fa-bars"></i> <img id="nav-logo" src="img/youtube_logo.svg" alt=""> </div>
+                <div class="center">
+                    <div id="search-container">
+                        <input id="nav-search" type="search" name="search" placeholder="What are you looking for?">
+                        <button id="nav-btn-search"><i class="fa fa-search"></i></button>
+                    </div>
                 </div>
-            <div id="profile">
-              
-              <span id="generic-name">Generic Name</span>
-                <div id="avatar">
-                  <img src="img/user_font_awesome.svg" alt="avatar">
+                <div class="right"> <i href="#" class="fa fa-video icons-bar"></i> <i href="#" class="fa fa-th icons-bar"></i> <i href="#" class="fa fa-paper-plane icons-bar" aria-hidden="true"></i> <i href="#" class="fa fa-bell icons-bar"></i>
+                    <div id="user-icon"> <i href="#" class="fa fa-user icons-bar"></i> </div>
+                </div>
+            </nav>
+        </div>
+        <!-- End of navigation section -->
+        <!-- Start of video section -->
+        <div class="video-sb-container">
+            <div class="video-section">
+                <div class="iframe-container">
+                    <iframe width="800" height="600" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+                </div>
+                <!-- Start video-rating-bar-->
+                <div class="video-rating-bar">
+                    <div id="video-title-views"><span id="video-title">Video title</span>
+                    </div>
+                    <div id="ratings">
+                        <div id="num-views">
+                            <p id="num">123 views</p>
+                        </div>
+                        <div id="buttons-group">
+                            <div id="likes"> <i class="fa fa-thumbs-up"></i> 1,234</div>
+                            <div id="unlikes"> <i class="fa fa-thumbs-down"></i> 31</div>
+                            <div id="share"><i class="fa fa-share"></i> Share</div>
+                            <div id="save-video"><i class="fa fa-align-left"></i> Save</div>
+                            <i class="fa fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div id="description-profile">
+                        <div id="subscribe">
+                            <button id="subscribe-btn">subscribe 123</button>
+                        </div>
+                        <div id="profile"> <span id="generic-name">Generic Name</span>
+                            <div id="avatar"> <img src="img/user_font_awesome.svg" alt="avatar"> </div>
+                        </div>
+                        <div id="description"></div>
+                    </div>
                 </div>
             </div>
-            <div id="description"></div>
-            
-          </div>
-          
-          
+            <!-- End of video section -->
+            <!-- Start of sidebar section -->
+            <div class="sidebar-section">
+                <div id="sidebar-head"> <span>Comming next:</span> <span id="autoplay">Automatic reproduction: </span> <i class="fas fa-toggle-on"></i> </div>
+                <table>
+                    <tr>
+                        <td class="sb-recommended-videos"> <img src="img/thumb01.jpg"> </td>
+                        <td class="sb-recommended-videos-info">
+                            <div class="sb-video-title">Some funny video 1</div>
+                            <div class="sb-uploader">Uploader of funny video 1</div>
+                            <div class="sb-num">123 views</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="sb-recommended-videos"> <img src="img/thumb02.jpg"> </td>
+                        <td class="sb-recommended-videos-info">
+                            <div class="sb-video-title">Some funny video 2</div>
+                            <div class="sb-uploader">Uploader of funny video 2</div>
+                            <div class="sb-num">123 views</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="sb-recommended-videos"> <img src="img/thumb03.jpg"> </td>
+                        <td class="sb-recommended-videos-info">
+                            <div class="sb-video-title">Some funny video 3</div>
+                            <div class="sb-uploader">Uploader of funny video 3</div>
+                            <div class="sb-num">123 views</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="sb-recommended-videos"> <img src="img/thumb04.jpg"> </td>
+                        <td class="sb-recommended-videos-info">
+                            <div class="sb-video-title">Some funny video 4</div>
+                            <div class="sb-uploader">Uploader of funny video 4</div>
+                            <div class="sb-num">123 views</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="sb-recommended-videos"> <img src="img/thumb05.jpg"> </td>
+                        <td class="sb-recommended-videos-info">
+                            <div class="sb-video-title">Some funny video 5</div>
+                            <div class="sb-uploader">Uploader of funny video 5</div>
+                            <div class="sb-num">123 views</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="sb-recommended-videos"> <img src="img/thumb06.jpg"> </td>
+                        <td class="sb-recommended-videos-info">
+                            <div class="sb-video-title">Some funny video 6</div>
+                            <div class="sb-uploader">Uploader of funny video 6</div>
+                            <div class="sb-num">123 views</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="sb-recommended-videos"> <img src="img/thumb07.jpg"> </td>
+                        <td class="sb-recommended-videos-info">
+                            <div class="sb-video-title">Some funny video 7</div>
+                            <div class="sb-uploader">Uploader of funny video 7</div>
+                            <div class="sb-num">123 views</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </div>
-      </div>
-      <!- End of video section -->
-      <!- Start of sidebar section -->
-      <div class="sidebar-section">
-       <div id="sidebar-head">
-           <span>Comming next:</span>
-           <span id="autoplay">Automatic reproduction: </span>
-           <i class="fas fa-toggle-on"></i>
-       </div>
-        <table>
-          <tr>
-            <td class="sb-recommended-videos">
-              <img src="img/thumb01.jpg">
-            </td>
-            <td class="sb-recommended-videos-info">
-                <div class="sb-video-title">Some funny video 1</div>
-                <div class="sb-uploader">Uploader of funny video 1</div>
-                <div class="sb-num">123 views</div>
-            </td>
-          </tr>
-          <tr>
-            <td class="sb-recommended-videos">
-              <img src="img/thumb02.jpg">
-            </td>
-            <td class="sb-recommended-videos-info">
-                <div class="sb-video-title">Some funny video 2</div>
-                <div class="sb-uploader">Uploader of funny video 2</div>
-                <div class="sb-num">123 views</div>
-            </td>
-          </tr>
-          <tr>
-            <td class="sb-recommended-videos">
-              <img src="img/thumb03.jpg">
-            </td>
-            <td class="sb-recommended-videos-info">
-                <div class="sb-video-title">Some funny video 3</div>
-                <div class="sb-uploader">Uploader of funny video 3</div>
-                <div class="sb-num">123 views</div>
-            </td>
-          </tr>
-          <tr>
-            <td class="sb-recommended-videos">
-              <img src="img/thumb04.jpg">
-            </td>
-            <td class="sb-recommended-videos-info">
-                <div class="sb-video-title">Some funny video 4</div>
-                <div class="sb-uploader">Uploader of funny video 4</div>
-                <div class="sb-num">123 views</div>
-            </td>
-          </tr>
-          <tr>
-            <td class="sb-recommended-videos">
-              <img src="img/thumb05.jpg">
-            </td>
-            <td class="sb-recommended-videos-info">
-                <div class="sb-video-title">Some funny video 5</div>
-                <div class="sb-uploader">Uploader of funny video 5</div>
-                <div class="sb-num">123 views</div>
-            </td>
-          </tr>
-          <tr>
-            <td class="sb-recommended-videos">
-              <img src="img/thumb06.jpg">
-            </td>
-            <td class="sb-recommended-videos-info">
-                <div class="sb-video-title">Some funny video 6</div>
-                <div class="sb-uploader">Uploader of funny video 6</div>
-                <div class="sb-num">123 views</div>
-            </td>
-          </tr>
-          <tr>
-            <td class="sb-recommended-videos">
-              <img src="img/thumb07.jpg">
-            </td>
-            <td class="sb-recommended-videos-info">
-                <div class="sb-video-title">Some funny video 7</div>
-                <div class="sb-uploader">Uploader of funny video 7</div>
-                <div class="sb-num">123 views</div>
-            </td>
-          </tr>
-        </table>
-      </div>
+        <!-- End of sidebar section -->
     </div>
-    <!- End of sidebar section -->
-  </div>
-</body>
-
-</html>
+</body></html>
