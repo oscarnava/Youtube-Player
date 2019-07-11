@@ -91,7 +91,7 @@ body {
 
 .video-sb-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -236,4 +236,10 @@ table tr:first-child {
     font-size: 18px;
     padding-top: 3px;
     color: #0000be;
+}
+
+
+
+.sidebar-section {
+    min-width: 400px;
 }
