@@ -41,26 +41,49 @@
     <!- Start of video section -->
     <div class="video-sb-container">
       <div class="video-section">
-        <div>
-          <iframe width="1024" height="768" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
-        </div> <span id="video-title">Video title</span>
+        <div id="iframe-container">
+          <iframe width="1324" height="768" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+        </div> 
+        <!- Start video-rating-bar-->
         <div class="video-rating-bar">
-          <div id="num-views">
-            <p id="num">123 views</p>
+          <div id="video-title-views">
+            <span id="video-title">Video title</span>
+            <div id="num-views">
+              <p id="num">123 views</p>
+            </div>
           </div>
-          <div id="likes"><i class="fa fa-thumbs-up"></i>
-            <button class="cute-button">Like</button>
+          <div id="ratings">
+            <div id="likes">
+              <i class="fa fa-thumbs-up"></i>
+              <button class="cute-button">Like</button>
+            </div>
+            <div id="unlikes">  
+              <i class="fa fa-thumbs-down"></i>
+              <button class="cute-button">Unlike</button>
+             </div>
+            <div id="share">
+              <button class="cute-button">
+                <i class="fa fa-share"></i> Share 
+              </button>
+            </div>
           </div>
-          <div id="unlikes"><i class="fa fa-thumbs-down"></i>
-            <button class="cute-button">Unlike</button>
+          
+          <div id="description-profile">
+              <div id="subscribe">
+                  <button id="subscribe-btn">subscribe 123</button>
+                </div>
+            <div id="profile">
+              
+              <span id="generic-name">Generic Name</span>
+                <div id="avatar">
+                  <img src="img/user_font_awesome.svg" alt="avatar">
+                </div>
+            </div>
+            <div id="description"></div>
+            
           </div>
-          <div id="share">
-            <button class="cute-button"><i class="fa fa-share"></i> Share </button>
-          </div>
-          <div id="avatar"><img src="img/user_font_awesome.svg" alt="avatar"> </div>
-          <div id="subscribe">
-            <button class="cute-button">Subscribe</button>
-          </div>
+          
+          
         </div>
       </div>
       <!- End of video section -->
