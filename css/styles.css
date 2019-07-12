@@ -132,7 +132,7 @@ body {
     background-color: white;
     margin-left: 20px;
     padding: 10px;
-    border: thick dotted #0000be;
+/*    border: thick dotted #0000be;*/
 }
 
 #likes {
@@ -146,6 +146,9 @@ body {
 
 #avatar {
     display: inline-block;
+    width: 48px;
+    height: 48px;
+    padding: 16px;
 }
 
 #avatar img {
@@ -265,7 +268,9 @@ table tr:first-child {
 /*description-profile*/
 
 #description-profile {
-    border: thick dotted green;
+/*    border: thick dotted green;*/
+    display: flex;
+    justify-content: space-between;
 }
 
 #num-views {
@@ -286,4 +291,47 @@ table tr:first-child {
 
 #save-video {
     text-transform: uppercase;
+}
+
+#profile .publication {
+    display: block;
+/*    border: thin dotted red;*/
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#profile p {
+    font-size: 14px;
+    padding-top: .8em;
+}
+
+#profile .user-name {
+    font-size: 16px;
+}
+
+#subscribe-btn {
+    background-color: #cc0000;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 150px;
+    height: 37px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 16px;
+}
+
+#profile {
+    padding: 1em
+}
+
+#avatar {
+    background-color: #78c15d;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+#avatar img[alt="avatar"] {
+    width: 48px;
+    height: 48px;
 }
