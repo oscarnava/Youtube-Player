@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
-    <title></title>
+    <title>Youtube clone</title>
 </head>
 
 <body>
@@ -23,17 +23,25 @@
                         <button id="nav-btn-search"><i class="fa fa-search"></i></button>
                     </div>
                 </div>
-                <div class="right"> <i href="#" class="fa fa-video icons-bar"></i> <i href="#" class="fa fa-th icons-bar"></i> <i href="#" class="fa fa-paper-plane icons-bar" aria-hidden="true"></i> <i href="#" class="fa fa-bell icons-bar"></i>
-                    <div id="user-icon"> <i href="#" class="fa fa-user icons-bar"></i> </div>
+                <div class="right">
+                    <a href="#"><i class="fa fa-video icons-bar"></i> </a>
+                    <a href="#"><i class="fa fa-th icons-bar"></i> </a>
+                    <a href="#"><i class="fa fa-paper-plane icons-bar" aria-hidden="true"></i> </a>
+                    <a href="#"><i class="fa fa-bell icons-bar"></i></a>
+                    <a href="#">
+                        <div id="user-icon">
+                           <i class="fa fa-user icons-bar"></i>
+                        </div>
+                    </a>
                 </div>
             </nav>
         </div>
         <!-- End of navigation section -->
         <!-- Start of video section -->
         <div class="video-sb-container">
-            <div class="video-section">
+            <main class="video-section">
                 <div class="iframe-container">
-                    <iframe width="800" height="600" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+                    <iframe width="800" height="600" src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
                 </div>
                 <!-- Start video-rating-bar-->
                 <div class="video-rating-bar">
@@ -59,13 +67,13 @@
                             <span class="user-name">Generic Name</span>
                             <span class="publication">Published feb. 27, 2014</span>
                             <p>
-                                How do you contribute to open source?  In this video, I'll describe the easiest
+                                How do you contribute to open source? In this video, I'll describe the easiest
                                 way to make a simple contribution to an open source project -- without using the
                                 command line, a text editor, "forking a repo", or even touching Git outside of Github.
                                 I'll also describe what kinds of contributions open source software projects are
-                                typically looking for.  As an example, I use submitting a student solution to a
+                                typically looking for. As an example, I use submitting a student solution to a
                                 web development exercise from The Odin Project, a free online curriculum for
-                                learning web development with Ruby on Rails.  You can find more information about
+                                learning web development with Ruby on Rails. You can find more information about
                                 that project at http://theodinproject.com.
                             </p>
                         </div>
@@ -75,14 +83,14 @@
                         <div id="description"></div>
                     </div>
                 </div>
-            </div>
+            </main>
             <!-- End of video section -->
             <!-- Start of sidebar section -->
             <div class="sidebar-section">
                 <div id="sidebar-head"> <span>Comming next:</span> <span id="autoplay">Automatic reproduction: </span> <i class="fas fa-toggle-on"></i> </div>
                 <table>
                     <tr>
-                        <td class="sb-recommended-videos"> <img src="img/thumb01.jpg"> </td>
+                        <td class="sb-recommended-videos"> <img src="img/thumb01.jpg" alt="video thumbnail"> </td>
                         <td class="sb-recommended-videos-info">
                             <div class="sb-video-title">Some funny video 1</div>
                             <div class="sb-uploader">Uploader of funny video 1</div>
@@ -90,7 +98,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="sb-recommended-videos"> <img src="img/thumb02.jpg"> </td>
+                        <td class="sb-recommended-videos"> <img src="img/thumb02.jpg" alt="video thumbnail"> </td>
                         <td class="sb-recommended-videos-info">
                             <div class="sb-video-title">Some funny video 2</div>
                             <div class="sb-uploader">Uploader of funny video 2</div>
@@ -98,7 +106,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="sb-recommended-videos"> <img src="img/thumb03.jpg"> </td>
+                        <td class="sb-recommended-videos"> <img src="img/thumb03.jpg" alt="video thumbnail"> </td>
                         <td class="sb-recommended-videos-info">
                             <div class="sb-video-title">Some funny video 3</div>
                             <div class="sb-uploader">Uploader of funny video 3</div>
@@ -106,7 +114,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="sb-recommended-videos"> <img src="img/thumb04.jpg"> </td>
+                        <td class="sb-recommended-videos"> <img src="img/thumb04.jpg" alt="video thumbnail"> </td>
                         <td class="sb-recommended-videos-info">
                             <div class="sb-video-title">Some funny video 4</div>
                             <div class="sb-uploader">Uploader of funny video 4</div>
@@ -114,7 +122,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="sb-recommended-videos"> <img src="img/thumb05.jpg"> </td>
+                        <td class="sb-recommended-videos"> <img src="img/thumb05.jpg" alt="video thumbnail"> </td>
                         <td class="sb-recommended-videos-info">
                             <div class="sb-video-title">Some funny video 5</div>
                             <div class="sb-uploader">Uploader of funny video 5</div>
@@ -122,7 +130,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="sb-recommended-videos"> <img src="img/thumb06.jpg"> </td>
+                        <td class="sb-recommended-videos"> <img src="img/thumb06.jpg" alt="video thumbnail"> </td>
                         <td class="sb-recommended-videos-info">
                             <div class="sb-video-title">Some funny video 6</div>
                             <div class="sb-uploader">Uploader of funny video 6</div>
@@ -130,7 +138,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="sb-recommended-videos"> <img src="img/thumb07.jpg"> </td>
+                        <td class="sb-recommended-videos"> <img src="img/thumb07.jpg" alt="video thumbnail"> </td>
                         <td class="sb-recommended-videos-info">
                             <div class="sb-video-title">Some funny video 7</div>
                             <div class="sb-uploader">Uploader of funny video 7</div>

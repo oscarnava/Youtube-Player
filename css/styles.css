@@ -132,7 +132,7 @@ body {
     background-color: white;
     margin-left: 20px;
     padding: 10px;
-/*    border: thick dotted #0000be;*/
+    /*    border: thick dotted #0000be;*/
 }
 
 #likes {
@@ -268,7 +268,7 @@ table tr:first-child {
 /*description-profile*/
 
 #description-profile {
-/*    border: thick dotted green;*/
+    /*    border: thick dotted green;*/
     display: flex;
     justify-content: space-between;
 }
@@ -295,7 +295,7 @@ table tr:first-child {
 
 #profile .publication {
     display: block;
-/*    border: thin dotted red;*/
+    /*    border: thin dotted red;*/
     font-size: 12px;
     margin-top: 5px;
 }
